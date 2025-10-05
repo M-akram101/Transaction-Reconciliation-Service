@@ -5,14 +5,12 @@ function generateReconciliationReport(internalFilePath, sourceFilePath) {
   let missingInInternal = [];
   let missingInSource = [];
 
-  // Reading Files synchronously
+  // Reading Files
   const sourceData = fs.readFileSync(sourceFilePath, "utf-8").split("\n");
-
   const internalData = fs.readFileSync(internalFilePath, "utf-8").split("\n");
 
   // Creating a map for intenal data for faster access
   const internalMap = new Map();
-
   for (let i = 1; i < internalData.length - 1; i++) {
     const internalRow = internalData[i].trim();
 
@@ -26,10 +24,12 @@ function generateReconciliationReport(internalFilePath, sourceFilePath) {
     const sourceRow = sourceData[i].split(",");
     const transactionId = sourceRow[0];
 
-    const sourceAmount = Number(parseFloat(sourceRow[4]).toFixed(2));
+    const sourceAmount = Math.round(sourceRow[4] * 100) / 100;
     const sourceStatus = sourceRow[6];
 
     sourceValues.push(sourceData[i].split(","));
+
+    // Checking for missing transactions in internal, by source's transaction id
 
     if (!internalMap.has(transactionId)) {
       const missingObj = {
@@ -39,9 +39,11 @@ function generateReconciliationReport(internalFilePath, sourceFilePath) {
         status: sourceRow[6],
       };
       missingInInternal.push(missingObj);
-    } else {
+    }
+    // Checking for the missmatched transactions, on the common rows of both tables
+    else {
       const internalRow = internalMap.get(transactionId);
-      const internalAmount = Number(parseFloat(internalRow[1]).toFixed(2));
+      const internalAmount = Math.round(internalRow[1] * 100) / 100;
       const internalStatus = internalRow[3];
       if (sourceAmount !== internalAmount || sourceStatus !== internalStatus) {
         const mismatchObj = {
@@ -60,6 +62,7 @@ function generateReconciliationReport(internalFilePath, sourceFilePath) {
             internal: internalStatus,
           };
         }
+        // Deleting the row from map to later extract missing in source
         mismatchedTransactions.push(mismatchObj);
       }
 
@@ -67,7 +70,7 @@ function generateReconciliationReport(internalFilePath, sourceFilePath) {
     }
   }
 
-  // Checking for missing transactions in source data
+  // Looping on missing transactions in source data
   for (const [transactionId, internalRow] of internalMap) {
     const missingObj = {
       providerTransactionId: transactionId,
@@ -85,14 +88,14 @@ function generateReconciliationReport(internalFilePath, sourceFilePath) {
   };
   // Writing the report to a JSON file, for better readability.
   fs.writeFileSync(
-    "documents/reconciliation_report.json",
+    "results/reconciliation_report.json",
     JSON.stringify(reconciliationReport, null, 2),
     "utf-8"
   );
   return reconciliationReport;
 }
-const sourcePath = "documents/source_transactions.csv";
-const internalPath = "documents/system_transactions.csv";
+const sourcePath = "data/source_transactions.csv";
+const internalPath = "data/system_transactions.csv";
 const reconciliationReport = generateReconciliationReport(
   internalPath,
   sourcePath
