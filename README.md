@@ -14,6 +14,8 @@ A transaction reconciliation service or function that reads transactions from tw
 
 # New Source Headers [providerTransactionId email userId provider amount currency status transactionType paymentMethod ][2 3 5 6 7 9]
 
+////////////////////////////////////////////////////////////////////////////////////////
+
 # Internal Headers [transactionId userId amount currency status paymentMethod createdAt updatedAt referenceId metadata_orderId metadata_description]
 
 # New Internal Headers Internal Headers [transactionId userId amount currency status paymentMethod][1 2 3 4 5]
