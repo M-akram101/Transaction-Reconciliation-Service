@@ -86,6 +86,7 @@ function generateReconciliationReport(internalFilePath, sourceFilePath) {
     missing_in_source: missingInSource,
     mismatched_transactions: mismatchedTransactions,
   };
+  // Writing the report to a JSON file, for better readability.
   fs.writeFileSync(
     "results/reconciliation_report.json",
     JSON.stringify(reconciliationReport, null, 2),
