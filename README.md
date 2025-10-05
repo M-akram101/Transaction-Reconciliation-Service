@@ -1,21 +1,60 @@
-# Transaction-Reconciliation-Service
+Transaction Reconciliation Service
 
-A transaction reconciliation service or function that reads transactions from two provided JSON files, compares them, identify discrepancies, and generate a structured reconciliation report
+A Node.js-based reconciliation utility that compares two transaction datasets — one from an external source and one from an internal system — to identify:
+• Missing transactions in either dataset
+• Mismatched transaction amounts or statuses
+• Generates a structured JSON report summarizing all the past t
 
-## 1
+## Running
 
-# Read files synchronously, can be read async too but if ots gonna be used in an API.
+1. git clone https://github.com/M-akram101/Transaction-Reconciliation-Service.git
 
-## 2
+cd transaction-reconciliation-service
 
-# For better performance Filtered columns [Left Common columns between the two tables only]
+2. Project Structure
 
-# Old Source Headers [providerTransactionId email userId provider amount currency status transactionType paymentMethod createdAt updatedAt providerReference fraudRisk details_invoiceId details_customerName details_description]
+   project/
+   ├── main.js
+   ├── data/
+   │ ├── source_transactions.csv
+   │ └── system_transactions.csv
+   └── results/
+   └── reconciliation_report.json (auto-generated)
 
-# New Source Headers [providerTransactionId email userId provider amount currency status transactionType paymentMethod ][2 3 5 6 7 9]
+3. Run the script
 
-////////////////////////////////////////////////////////////////////////////////////////
+   node main.js
 
-# Internal Headers [transactionId userId amount currency status paymentMethod createdAt updatedAt referenceId metadata_orderId metadata_description]
+## Technical Design Rationale
 
-# New Internal Headers Internal Headers [transactionId userId amount currency status paymentMethod][1 2 3 4 5]
+1. File Handling
+   • Uses Node.js fs.readFileSync().
+   • Synchronous reading ensures clean, predictable data processing for small–medium datasets.
+   • Can easily be converted to async (fs.promises.readFile) for API or large-scale use cases.
+
+2. Efficient Data Matching
+   • The internal dataset is stored in a Map keyed by transactionId ; allows O(1) lookups.
+   • Each source transaction is checked once:
+   • If missing in internal ; pushed to missing_in_internal
+   • If present ; validated for amount/status mismatches
+   • Matched transactions are deleted from the map to later detect missing in source
+
+3. Accuracy in Comparison
+   • Amounts rounded to two decimal places to prevent floating-point precision issues, and similar to the amount col in both tables.
+   • Status compared as case-sensitive strings to ensure exact matches.
+
+4. Final Report
+   • All results consolidated into one structured JSON object:
+   • missing_in_internal
+   • missing_in_source
+   • mismatched_transactions
+   • Automatically written to results/reconciliation_report.json.
+
+## Code Review Notes
+
+    • Readable & Maintainable: Clear variable names and logical structure.
+    • Performance: Uses Map and single-pass iteration (O(n) time).
+    • Extensible: Can easily add new comparison fields or output formats.
+
+    Potential Improvements:
+    •	error handling—should be expanded to handle missing files  or invalid CSV data.
