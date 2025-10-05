@@ -1,0 +1,712 @@
+{
+  "missing_in_internal": [
+    {
+      "transactionId": "e281781a-1fcb-49e4-8a61-2824d634f8df",
+      "amount": "450.14",
+      "currency": "USD",
+      "status": "pending"
+    },
+    {
+      "transactionId": "a619ba16-c331-48ab-a099-314a96d56e57",
+      "amount": "625.05",
+      "currency": "USD",
+      "status": "refunded"
+    },
+    {
+      "transactionId": "3b9b8a00-995b-4598-a96d-e9a9017d4ca2",
+      "amount": "1052.17",
+      "currency": "USD",
+      "status": "refunded"
+    },
+    {
+      "transactionId": "81d2d2a5-992d-4763-92d3-c7144d12f699",
+      "amount": "613.17",
+      "currency": "USD",
+      "status": "refunded"
+    },
+    {
+      "transactionId": "3715b16e-186b-4fe5-814b-efa0b6d9e303",
+      "amount": "349.77",
+      "currency": "USD",
+      "status": "refunded"
+    },
+    {
+      "transactionId": "0e8f06ba-428c-4724-96c1-78e0ef4c8bee",
+      "amount": "145.5",
+      "currency": "USD",
+      "status": "succeeded"
+    },
+    {
+      "transactionId": "26da7995-c69b-46db-a7de-7b16931c352d",
+      "amount": "472.94",
+      "currency": "USD",
+      "status": "disputed"
+    },
+    {
+      "transactionId": "81ab87d1-53b5-4dc7-ac44-eabc6692a3c6",
+      "amount": "706.43",
+      "currency": "USD",
+      "status": "succeeded"
+    },
+    {
+      "transactionId": "589efcd0-5dc5-44a1-a9bb-658ccd2f7fa3",
+      "amount": "894.39",
+      "currency": "USD",
+      "status": "failed"
+    },
+    {
+      "transactionId": "39c96d8f-2534-4157-9f58-61125e98bb05",
+      "amount": "717.17",
+      "currency": "USD",
+      "status": "disputed"
+    },
+    {
+      "transactionId": "bd6b003e-7a66-46f0-abea-5b27c0a4249f",
+      "amount": "281.78",
+      "currency": "USD",
+      "status": "disputed"
+    },
+    {
+      "transactionId": "1adc154a-75cd-4c56-ab82-22e3cff02bd5",
+      "amount": "331.62",
+      "currency": "USD",
+      "status": "pending"
+    },
+    {
+      "transactionId": "44e5a28c-3115-46b2-b19d-5c9d9c21aaeb",
+      "amount": "309.29",
+      "currency": "USD",
+      "status": "refunded"
+    },
+    {
+      "transactionId": "01e6ddf7-7993-46f9-9fe3-6d8d4c62e2d4",
+      "amount": "102.55",
+      "currency": "USD",
+      "status": "pending"
+    },
+    {
+      "transactionId": "44cc3e15-b22d-4364-b09d-4be609a08e0e",
+      "amount": "369.49",
+      "currency": "USD",
+      "status": "pending"
+    },
+    {
+      "transactionId": "46227fd9-7fea-473a-8f3e-fad994b94de2",
+      "amount": "935.33",
+      "currency": "USD",
+      "status": "pending"
+    },
+    {
+      "transactionId": "6c63eb8f-fd68-4c27-ad70-b6cc8ce151cd",
+      "amount": "497.31",
+      "currency": "USD",
+      "status": "pending"
+    },
+    {
+      "transactionId": "eb81d804-9a10-4e6e-8994-9a852412e105",
+      "amount": "431.09",
+      "currency": "USD",
+      "status": "refunded"
+    },
+    {
+      "transactionId": "e0d97a12-1be9-428f-9850-bee8c46a1789",
+      "amount": "198.77",
+      "currency": "USD",
+      "status": "disputed"
+    },
+    {
+      "transactionId": "a01c03e1-8a9b-47e4-9829-569ff446176b",
+      "amount": "884.16",
+      "currency": "USD",
+      "status": "pending"
+    },
+    {
+      "transactionId": "b02ed4c4-27e1-4fc1-a505-45ad5212b981",
+      "amount": "146.44",
+      "currency": "USD",
+      "status": "pending"
+    },
+    {
+      "transactionId": "46ee9740-2a2b-4db4-9ae0-e5dc7c73fd67",
+      "amount": "978.55",
+      "currency": "USD",
+      "status": "refunded"
+    },
+    {
+      "transactionId": "d462c4bf-de74-4b9b-b6b4-73868bc67beb",
+      "amount": "360.54",
+      "currency": "USD",
+      "status": "pending"
+    },
+    {
+      "transactionId": "6ac994c7-fac1-42d3-8b21-716784728f21",
+      "amount": "361.25",
+      "currency": "USD",
+      "status": "failed"
+    },
+    {
+      "transactionId": "f64aa6bb-4a30-4f4a-9b9e-07b53f9fe046",
+      "amount": "688.07",
+      "currency": "USD",
+      "status": "pending"
+    },
+    {
+      "transactionId": "f58debd2-ea5c-4971-9f3f-2c010ddeabb1",
+      "amount": "391.64",
+      "currency": "USD",
+      "status": "refunded"
+    },
+    {
+      "transactionId": "b4bc6638-bf33-4326-acd7-658269921ffb",
+      "amount": "155.26",
+      "currency": "USD",
+      "status": "refunded"
+    },
+    {
+      "transactionId": "6e2a8b57-0757-4359-bbbd-202be3e51bd8",
+      "amount": "610.31",
+      "currency": "USD",
+      "status": "failed"
+    }
+  ],
+  "missing_in_source": [
+    {
+      "providerTransactionId": "592dbb3c-5a8f-49b5-a210-7e79e1417a85",
+      "amount": "678.34",
+      "currency": "USD",
+      "status": "completed"
+    },
+    {
+      "providerTransactionId": "35839b0b-f5f1-4d89-b97c-d70bd4db0dc7",
+      "amount": "184.62",
+      "currency": "USD",
+      "status": "failed"
+    },
+    {
+      "providerTransactionId": "f741569f-2fad-40ea-ab36-ed9618a0603c",
+      "amount": "123.17",
+      "currency": "USD",
+      "status": "failed"
+    },
+    {
+      "providerTransactionId": "0f079583-4a68-4666-966c-a796959c010b",
+      "amount": "380.01",
+      "currency": "USD",
+      "status": "failed"
+    },
+    {
+      "providerTransactionId": "c7eccd8d-06e6-43c7-9f16-96447fff4286",
+      "amount": "1193.1",
+      "currency": "USD",
+      "status": "completed"
+    },
+    {
+      "providerTransactionId": "32a2fc87-a726-4f9e-90bb-7fd3ee1eb5db",
+      "amount": "177.7",
+      "currency": "USD",
+      "status": "pending"
+    },
+    {
+      "providerTransactionId": "07e9d771-b60a-45c8-b514-14458b2bcf0a",
+      "amount": "537.13",
+      "currency": "USD",
+      "status": "pending"
+    },
+    {
+      "providerTransactionId": "55a9a27f-1f1b-4fed-a171-6748213320dc",
+      "amount": "1017.66",
+      "currency": "USD",
+      "status": "pending"
+    },
+    {
+      "providerTransactionId": "a9180e79-c758-4769-aabf-b28af6f5b8d9",
+      "amount": "377.7",
+      "currency": "USD",
+      "status": "pending"
+    },
+    {
+      "providerTransactionId": "93d8a1dc-1097-4dd8-9cf9-f6ebb02c27c8",
+      "amount": "216.21",
+      "currency": "USD",
+      "status": "pending"
+    },
+    {
+      "providerTransactionId": "62ba9f8c-77ed-47f0-a9a1-c06576b19687",
+      "amount": "32.03",
+      "currency": "USD",
+      "status": "refunded"
+    },
+    {
+      "providerTransactionId": "cf35cc36-b0d0-4336-9db2-c4b2df0b8cd6",
+      "amount": "26.9",
+      "currency": "USD",
+      "status": "failed"
+    },
+    {
+      "providerTransactionId": "891e8cf7-7603-4287-ba3a-7c05ca2f2826",
+      "amount": "656.95",
+      "currency": "USD",
+      "status": "refunded"
+    },
+    {
+      "providerTransactionId": "8375e0dc-371a-458f-b051-9cb54f3ef890",
+      "amount": "398.68",
+      "currency": "USD",
+      "status": "completed"
+    },
+    {
+      "providerTransactionId": "69393059-742d-42d0-bfa5-ebd72e0e28e2",
+      "amount": "104.83",
+      "currency": "USD",
+      "status": "failed"
+    },
+    {
+      "providerTransactionId": "c5751229-e581-4671-a2c3-12d28b335186",
+      "amount": "117.16",
+      "currency": "USD",
+      "status": "refunded"
+    },
+    {
+      "providerTransactionId": "0dd7e61d-7fb2-4b3d-90dc-7dd8a9cc54be",
+      "amount": "1103.59",
+      "currency": "USD",
+      "status": "completed"
+    },
+    {
+      "providerTransactionId": "ef6cd49e-c1cc-4d02-a2aa-d4d1e01f9712",
+      "amount": "799.17",
+      "currency": "USD",
+      "status": "refunded"
+    },
+    {
+      "providerTransactionId": "7f9e2c5c-9475-43bd-8c8a-e3cfd0972577",
+      "amount": "1164.09",
+      "currency": "USD",
+      "status": "refunded"
+    },
+    {
+      "providerTransactionId": "c482079d-3e44-496a-923b-d9c3fb8e33c5",
+      "amount": "208.2",
+      "currency": "USD",
+      "status": "refunded"
+    },
+    {
+      "providerTransactionId": "a94a0424-7232-4e34-9844-045d13a9e9f7",
+      "amount": "26.27",
+      "currency": "USD",
+      "status": "completed"
+    },
+    {
+      "providerTransactionId": "4b29b889-19dc-49fd-8a8b-71ac27807506",
+      "amount": "420.84",
+      "currency": "USD",
+      "status": "completed"
+    },
+    {
+      "providerTransactionId": "85593bcb-0fe7-4a6a-839a-e7045ca05ed7",
+      "amount": "659.47",
+      "currency": "USD",
+      "status": "failed"
+    },
+    {
+      "providerTransactionId": "bc09fcdb-5946-427e-933e-924fbd145cc0",
+      "amount": "66.9",
+      "currency": "USD",
+      "status": "refunded"
+    },
+    {
+      "providerTransactionId": "1551ec00-f65a-4dbc-bbb6-8666a6d22ced",
+      "amount": "586.1",
+      "currency": "USD",
+      "status": "failed"
+    },
+    {
+      "providerTransactionId": "b2950c0b-2997-4f9d-b8d4-c881f713f8d6",
+      "amount": "291.91",
+      "currency": "USD",
+      "status": "completed"
+    },
+    {
+      "providerTransactionId": "53da0f0b-8b4d-43ad-a3a4-e5ae57d6a8e1",
+      "amount": "545.01",
+      "currency": "USD",
+      "status": "refunded"
+    },
+    {
+      "providerTransactionId": "89816bb1-45d8-4574-9a26-0aee353d41a3",
+      "amount": "341.59",
+      "currency": "USD",
+      "status": "refunded"
+    },
+    {
+      "providerTransactionId": "36664c02-1377-4923-82f7-541f276c93fc",
+      "amount": "171.59",
+      "currency": "USD",
+      "status": "failed"
+    },
+    {
+      "providerTransactionId": "39a7cab7-deab-40ef-b84f-af4385643dc9",
+      "amount": "812.31",
+      "currency": "USD",
+      "status": "refunded"
+    },
+    {
+      "providerTransactionId": "1e154805-8b12-4f9b-b8ab-a35ed643740c",
+      "amount": "183.22",
+      "currency": "USD",
+      "status": "refunded"
+    },
+    {
+      "providerTransactionId": "b1805bd3-076f-4194-8209-65d24855bf2f",
+      "amount": "639.93",
+      "currency": "USD",
+      "status": "pending"
+    },
+    {
+      "providerTransactionId": "08b7dbac-c7a4-4890-ac4c-8672d9a08068",
+      "amount": "527.15",
+      "currency": "USD",
+      "status": "failed"
+    },
+    {
+      "providerTransactionId": "f2ab084e-f7ee-4e06-a436-34d19f947edc",
+      "amount": "331.55",
+      "currency": "USD",
+      "status": "pending"
+    },
+    {
+      "providerTransactionId": "95f31f09-48eb-4b06-a2b8-bae9af5c32da",
+      "amount": "37.99",
+      "currency": "USD",
+      "status": "pending"
+    },
+    {
+      "providerTransactionId": "861b1cf8-7397-4320-a760-3da556606fc4",
+      "amount": "377.38",
+      "currency": "USD",
+      "status": "failed"
+    },
+    {
+      "providerTransactionId": "c4f85dbb-9d32-48ff-ab4a-c23c3d709a77",
+      "amount": "1124.7",
+      "currency": "USD",
+      "status": "failed"
+    },
+    {
+      "providerTransactionId": "3edc6ba9-5f60-4c02-b533-59c0956a55ef",
+      "amount": "87.58",
+      "currency": "USD",
+      "status": "failed"
+    },
+    {
+      "providerTransactionId": "14f87c7a-80bd-4fcd-989e-1b5c302645c4",
+      "amount": "619.27",
+      "currency": "USD",
+      "status": "completed"
+    },
+    {
+      "providerTransactionId": "01a33fb7-5cb8-4b34-940f-b2764051a8c4",
+      "amount": "84.13",
+      "currency": "USD",
+      "status": "failed"
+    },
+    {
+      "providerTransactionId": "7c9401e3-c926-42ba-84fb-6f2822edb3e6",
+      "amount": "418.28",
+      "currency": "USD",
+      "status": "failed"
+    },
+    {
+      "providerTransactionId": "73f93a8a-fb2d-4c30-b5b5-28fd698fe2b8",
+      "amount": "447.67",
+      "currency": "USD",
+      "status": "failed"
+    },
+    {
+      "providerTransactionId": "3386055e-ffaa-46e6-a1ea-7bf974765fd8",
+      "amount": "232.15",
+      "currency": "USD",
+      "status": "failed"
+    },
+    {
+      "providerTransactionId": "286f2390-22b6-4a55-b056-a29c15fbbdf5",
+      "amount": "78.1",
+      "currency": "USD",
+      "status": "refunded"
+    },
+    {
+      "providerTransactionId": "1bbdc746-bdd0-4a5b-b7d6-9d4ff8bb1528",
+      "amount": "1168.17",
+      "currency": "USD",
+      "status": "refunded"
+    },
+    {
+      "providerTransactionId": "5e11f485-502e-46b9-a650-ea51aa66a2c9",
+      "amount": "450.06",
+      "currency": "USD",
+      "status": "pending"
+    },
+    {
+      "providerTransactionId": "1455486e-614a-4c2f-be73-9661f4fbdb6d",
+      "amount": "1142.44",
+      "currency": "USD",
+      "status": "completed"
+    },
+    {
+      "providerTransactionId": "d91e9ee6-e485-4cad-b0da-31091cc34c47",
+      "amount": "594.42",
+      "currency": "USD",
+      "status": "pending"
+    },
+    {
+      "providerTransactionId": "bd4323d8-d052-4f59-96ab-c679a7222b13",
+      "amount": "326.36",
+      "currency": "USD",
+      "status": "pending"
+    },
+    {
+      "providerTransactionId": "f045ec6a-87f1-4d56-b99c-385ebdc5bf1e",
+      "amount": "391.81",
+      "currency": "USD",
+      "status": "pending"
+    },
+    {
+      "providerTransactionId": "3ed7f2af-7a5b-47eb-9673-0b2147763922",
+      "amount": "164.04",
+      "currency": "USD",
+      "status": "refunded"
+    },
+    {
+      "providerTransactionId": "d661fb1f-5db9-4051-a159-a5eb43571ece",
+      "amount": "201.08",
+      "currency": "USD",
+      "status": "refunded"
+    },
+    {
+      "providerTransactionId": "d273946f-ac2a-4dc6-8d27-a8ebd1179946",
+      "amount": "161.32",
+      "currency": "USD",
+      "status": "refunded"
+    },
+    {
+      "providerTransactionId": "fc5b05ad-4f4c-4608-bded-dd3fbd9490bb",
+      "amount": "658.35",
+      "currency": "USD",
+      "status": "pending"
+    },
+    {
+      "providerTransactionId": "412d8f28-27e3-47f3-9689-2a728f2b47f8",
+      "amount": "1002.02",
+      "currency": "USD",
+      "status": "failed"
+    },
+    {
+      "providerTransactionId": "a7a1a265-190d-40c6-bb80-e5f0a234a7c1",
+      "amount": "195.5",
+      "currency": "USD",
+      "status": "pending"
+    },
+    {
+      "providerTransactionId": "7f78ab29-2ba6-45a2-8d6b-a3c6c9d22a57",
+      "amount": "673.56",
+      "currency": "USD",
+      "status": "pending"
+    },
+    {
+      "providerTransactionId": "899213cc-bcb7-48a4-82ad-305691ecdd8f",
+      "amount": "116.68",
+      "currency": "USD",
+      "status": "completed"
+    },
+    {
+      "providerTransactionId": "0b35b26b-deeb-4a0b-83d2-dc91cef39ce0",
+      "amount": "679.18",
+      "currency": "USD",
+      "status": "pending"
+    }
+  ],
+  "mismatched_transactions": [
+    {
+      "transaction_id": "d013dd63-415d-46f3-b06e-491416cd5d59",
+      "discrepancies": {
+        "amount": {
+          "source": 837.3,
+          "internal": 830.77
+        },
+        "status": {
+          "source": "disputed",
+          "internal": "refunded"
+        }
+      }
+    },
+    {
+      "transaction_id": "a135faf1-b2be-422b-8c86-ae0e0834b9ed",
+      "discrepancies": {
+        "amount": {
+          "source": 907.16,
+          "internal": 842.21
+        },
+        "status": {
+          "source": "disputed",
+          "internal": "pending"
+        }
+      }
+    },
+    {
+      "transaction_id": "dd8c0fb8-63e7-4231-bbf4-cccc1b3a6ad0",
+      "discrepancies": {
+        "amount": {
+          "source": 30.26,
+          "internal": 28.11
+        },
+        "status": {
+          "source": "failed",
+          "internal": "pending"
+        }
+      }
+    },
+    {
+      "transaction_id": "e1520e0d-cc66-421e-a07d-d3ebcae2dc00",
+      "discrepancies": {
+        "amount": {
+          "source": 377.66,
+          "internal": 364.4
+        },
+        "status": {
+          "source": "disputed",
+          "internal": "refunded"
+        }
+      }
+    },
+    {
+      "transaction_id": "19991d1f-ddd7-4df0-a021-815257afefb9",
+      "discrepancies": {
+        "amount": {
+          "source": 147.55,
+          "internal": 141.57
+        },
+        "status": {
+          "source": "disputed",
+          "internal": "refunded"
+        }
+      }
+    },
+    {
+      "transaction_id": "d7383c50-1c1e-48c4-8270-3c83de337492",
+      "discrepancies": {
+        "amount": {
+          "source": 968.85,
+          "internal": 992.59
+        },
+        "status": {
+          "source": "pending",
+          "internal": "completed"
+        }
+      }
+    },
+    {
+      "transaction_id": "155c3644-4738-4854-b9cd-e84def71fe81",
+      "discrepancies": {
+        "amount": {
+          "source": 681.91,
+          "internal": 625.93
+        },
+        "status": {
+          "source": "disputed",
+          "internal": "pending"
+        }
+      }
+    },
+    {
+      "transaction_id": "87a59c14-eebe-4a55-998e-5e3e2c5ee587",
+      "discrepancies": {
+        "amount": {
+          "source": 556.07,
+          "internal": 580.48
+        },
+        "status": {
+          "source": "succeeded",
+          "internal": "failed"
+        }
+      }
+    },
+    {
+      "transaction_id": "3104da84-2b76-468c-baba-8b8280558c3e",
+      "discrepancies": {
+        "amount": {
+          "source": 597.06,
+          "internal": 577.22
+        },
+        "status": {
+          "source": "succeeded",
+          "internal": "pending"
+        }
+      }
+    },
+    {
+      "transaction_id": "60fd2600-cb1c-41b1-ab9d-6dc3be4972dd",
+      "discrepancies": {
+        "amount": {
+          "source": 1168.73,
+          "internal": 1254.61
+        },
+        "status": {
+          "source": "refunded",
+          "internal": "pending"
+        }
+      }
+    },
+    {
+      "transaction_id": "6873377f-0e02-4267-82d7-dd186b578d69",
+      "discrepancies": {
+        "amount": {
+          "source": 1264.06,
+          "internal": 1377.59
+        },
+        "status": {
+          "source": "pending",
+          "internal": "completed"
+        }
+      }
+    },
+    {
+      "transaction_id": "cb879714-1f8a-415d-9dd0-c7cf3f0627fb",
+      "discrepancies": {
+        "amount": {
+          "source": 102.17,
+          "internal": 96.47
+        },
+        "status": {
+          "source": "refunded",
+          "internal": "failed"
+        }
+      }
+    },
+    {
+      "transaction_id": "e558ca3e-43da-4cdf-b5c0-1252c2f24e1e",
+      "discrepancies": {
+        "amount": {
+          "source": 596.73,
+          "internal": 599.7
+        },
+        "status": {
+          "source": "succeeded",
+          "internal": "failed"
+        }
+      }
+    },
+    {
+      "transaction_id": "2cd5e409-6d24-40b6-8f3d-a68133360497",
+      "discrepancies": {
+        "amount": {
+          "source": 538.38,
+          "internal": 571.04
+        },
+        "status": {
+          "source": "disputed",
+          "internal": "completed"
+        }
+      }
+    }
+  ]
+}
