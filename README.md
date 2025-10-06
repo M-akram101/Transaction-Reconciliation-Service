@@ -58,3 +58,9 @@ cd transaction-reconciliation-service
 
     Potential Improvements:
     •	error handling—should be expanded to handle missing files  or invalid CSV data.
+    • Use csv-parser instead of fs:
+        1.Skips empty rows
+        2.Auto-trims headers
+        3.Parses header names automatically
+        4.Can handle streaming large files
+        5.Clean readable code
