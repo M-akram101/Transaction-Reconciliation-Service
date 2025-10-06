@@ -24,7 +24,7 @@ function generateReconciliationReport(internalFilePath, sourceFilePath) {
     const sourceRow = sourceData[i].split(",");
     const transactionId = sourceRow[0];
 
-    const sourceAmount = Math.round(sourceRow[4] * 100) / 100;
+    const sourceAmount = Math.round(sourceRow[4] * 100);
     const sourceStatus = sourceRow[6];
 
     sourceValues.push(sourceData[i].split(","));
@@ -43,7 +43,7 @@ function generateReconciliationReport(internalFilePath, sourceFilePath) {
     // Checking for the missmatched transactions, on the common rows of both tables
     else {
       const internalRow = internalMap.get(transactionId);
-      const internalAmount = Math.round(internalRow[1] * 100) / 100;
+      const internalAmount = Math.round(internalRow[1] * 100);
       const internalStatus = internalRow[3];
       if (sourceAmount !== internalAmount || sourceStatus !== internalStatus) {
         const mismatchObj = {
@@ -52,8 +52,8 @@ function generateReconciliationReport(internalFilePath, sourceFilePath) {
         };
         if (sourceAmount !== internalAmount) {
           mismatchObj.discrepancies.amount = {
-            source: sourceAmount,
-            internal: internalAmount,
+            source: sourceAmount / 100,
+            internal: internalAmount / 100,
           };
         }
         if (sourceStatus !== internalStatus) {
