@@ -3,7 +3,7 @@ Transaction Reconciliation Service
 A Node.js-based reconciliation utility that compares two transaction datasets — one from an external source and one from an internal system — to identify:
 • Missing transactions in either dataset
 • Mismatched transaction amounts or statuses
-• Generates a structured JSON report summarizing all the past t
+• Generates a structured JSON report summarizing all the past functionalities
 
 ## Running
 
